@@ -8,7 +8,7 @@ public class Bouteille extends Boisson {
     }
     @Override
     public String toString() {
-        return "Je suis une bouteille de marque " + getMarque() + " et au prix de " + getPrix();        
+        return "Je suis une bouteille de marque " + getMarque() + " et au prix de " + getPrix() + " $";        
     }
     
 }

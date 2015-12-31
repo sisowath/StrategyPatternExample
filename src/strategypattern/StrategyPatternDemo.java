@@ -2,6 +2,7 @@ package strategypattern;
 
 import com.samnang.classes.Bouteille;
 import com.samnang.classes.Canette;
+import com.samnang.classes.OuvrirBouchon;
 
 public class StrategyPatternDemo {
     
@@ -11,9 +12,14 @@ public class StrategyPatternDemo {
         
         System.out.println( uneCanette );
         uneCanette.performeAlgorithmeOuvrir();
-        
+        System.out.println("\n");
         System.out.println( uneBouteille );
         uneBouteille.performeAlgorithmeOuvrir();
+        System.out.println("\n");        
+        Canette uneAutreCanette = new Canette("Pepsi", 2.25);
+        uneAutreCanette.setAlgorithmeOuvrir( new OuvrirBouchon() );
+        System.out.println( uneAutreCanette );
+        uneAutreCanette.performeAlgorithmeOuvrir();
     }
     
 }

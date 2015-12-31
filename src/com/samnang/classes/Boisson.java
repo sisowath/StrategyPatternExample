@@ -1,6 +1,6 @@
 package com.samnang.classes;
 
-public class Boisson {
+public abstract class Boisson {
         
     private String marque;
     private double prix;

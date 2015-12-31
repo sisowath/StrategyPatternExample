@@ -9,6 +9,6 @@ public class Canette extends Boisson {
         
     @Override
     public String toString() {
-        return "Je suis une canette de marque " + getMarque() + " et au prix de " + getPrix();
+        return "Je suis une canette de marque " + getMarque() + " et au prix de " + getPrix() + " $";
     }
 }
