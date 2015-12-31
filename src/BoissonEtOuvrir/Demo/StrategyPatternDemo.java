@@ -1,4 +1,4 @@
-package strategypattern;
+package BoissonEtOuvrir.Demo;
 
 import com.samnang.classes.Bouteille;
 import com.samnang.classes.Canette;
